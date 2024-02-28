@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/demo.css}"/>
+</head>
+<body background="images/WeatherApp.jpg">
+<div class="searchPosition">
+    <form th:action="@{/processForm}" method="get" >
+    <input type="text"  name="latitude"  placeholder="zeměpisná šiřka"/>
+    <input type="text"  name="longitude"  placeholder="zeměpisná délka"/>
+        <button class="my-button" type="submit"> Hledat</button>
+<!--    <input class="my-button" type="submit" />-->
+
+    </form>
+
+</div>
+
+</body>
+</html>

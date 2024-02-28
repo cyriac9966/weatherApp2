@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Weather by location</title>
+    <link rel="stylesheet" th:href="@{/css/demo.css}"/>
+</head>
+<body background="images/WeatherApp.jpg">
+<div class="searchPosition">
+<form th:action="@{/finalCity}">
+<input type="text" name="city" placeholder="Město"/>
+<button class="my-button" type="submit"> Hledat</button>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.weather.Weather2.WeatherResponseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-28T08:03:48" hostname="cyriacs-MacBook.local" time="2.146">
+  <properties/>
+  <testcase name="getRedsponse()" classname="com.weather.Weather2.WeatherResponseTest" time="2.146"/>
+  <system-out><![CDATA[{"coord":{"lon":15.0899,"lat":50.6659},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":3.91,"feels_like":1.23,"temp_min":3.28,"temp_max":4.64,"pressure":1020,"humidity":96,"sea_level":1020,"grnd_level":975},"visibility":8276,"wind":{"speed":2.96,"deg":342,"gust":5.3},"clouds":{"all":100},"dt":1709107269,"sys":{"type":2,"id":2011584,"country":"CZ","sunrise":1709099256,"sunset":1709138243},"timezone":3600,"id":3075664,"name":"Hodkovice nad Mohelkou","cod":200}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

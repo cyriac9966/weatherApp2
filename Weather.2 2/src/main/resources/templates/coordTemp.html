@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Coord Temp</title>
+    <link rel="stylesheet" th:href="@{/css/demo.css}"/>
+</head>
+<body background="/images/WeatherApp.jpg">
+<div style="align-items: center; justify-content: center;display: flex;min-height: 100vh">
+
+    <div th:object="${weather}">
+        <h1 th:text="'Lokace: ' + *{name} + '  '"></h1>
+        <h1 th:text="'Teplota: ' + *{main.temp} + ' &deg;C.  '"></h1>
+        <h1 th:text="'Maximální teplota: ' + *{main.tempMax} + ' &deg;C.  '"></h1>
+        <h1 th:text="'Minimální teplota: ' + *{main.tempMin} + ' &deg;C.  '"></h1>
+    </div>
+</div>
+<div class="backPosition">
+    <form th:action="@{/weather}" method="get">
+        <button type="submit" class="my-button"> zpět</button>
+    </form>
+</div>
+</body>
+</html>

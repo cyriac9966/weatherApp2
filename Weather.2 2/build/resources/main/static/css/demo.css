@@ -1,0 +1,55 @@
+.funny {
+    font-style: italic;
+    color: blue;
+}
+
+.my-button {
+    background-color: black;
+    color: whitesmoke;
+    height: 32px;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.my-button:hover{
+    opacity: 0.8;
+}
+
+.my-button:active{
+    opacity: 0.5;
+}
+
+.centerPosition {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.buttonPosition {
+    /*position: absolute;*/
+    top: 55%;
+    /*width: 100%;*/
+    /*text-align: center;*/
+}
+
+.searchPosition {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.backPosition {
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.finalPrint{
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
